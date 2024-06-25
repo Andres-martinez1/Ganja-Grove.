@@ -11,6 +11,7 @@
 body{
     background-color: white;
 }
+
 .header{
     background-color: #D9D9D9;
     display: flex;
@@ -19,4 +20,18 @@ body{
     height: 85px;
     padding: 5px 10%;
     top: 0;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+.header .logo img{
+    height: 110px;
+    width: auto;
+    transition: all 0.3s;
+    
+}
+
+.header .logo img.hover{
+    transform: scale(1.2);
 }
