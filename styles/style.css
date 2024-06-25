@@ -35,3 +35,25 @@ body{
 .header .logo img.hover{
     transform: scale(1.2);
 }
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+.header .nav-links a{
+    font-size: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover{
+    color: whitesmoke;
+
+}
