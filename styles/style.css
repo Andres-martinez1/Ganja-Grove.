@@ -57,3 +57,32 @@ body{
     color: whitesmoke;
 
 }
+
+img{
+    width: 200px;
+    height: 200px;
+    margin: -100px 10px 10px 40px;
+}
+
+.titulos h2{
+    color:#3A895A;
+    margin: 40px;
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+    
+.sub h3{
+    color: #828282;
+    margin: 50px 0px 0px 40px;
+}
+
+.contenido {
+    display: flex;  
+    margin:40px;
+}
+
+.imagen{
+    width: 500px;
+    height: 500px;
+    margin: 100px;
+}
